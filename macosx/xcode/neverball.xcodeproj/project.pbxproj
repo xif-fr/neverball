@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		8137FC010AEB71F7009172EC /* Translations */ = {
+		8137FC010AEB71F7009172EC /* Checks */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 8137FC020AEB7216009172EC /* Build configuration list for PBXAggregateTarget "Translations" */;
+			buildConfigurationList = 8137FC020AEB7216009172EC /* Build configuration list for PBXAggregateTarget "Checks" */;
 			buildPhases = (
 				8137FC000AEB71F7009172EC /* ShellScript */,
 			);
 			dependencies = (
 			);
-			name = Translations;
+			name = Checks;
 			productName = Translations;
 		};
 		815FFC630AEA2F4900AFD07F /* Maps */ = {
@@ -124,22 +124,11 @@
 		02FFC098229CA2AA0071F243 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFC095229CA2AA0071F243 /* SDL2.framework */; };
 		02FFC099229CA47D0071F243 /* fs_stdio.c in Sources */ = {isa = PBXBuildFile; fileRef = 02FFBFDA229C9CD60071F243 /* fs_stdio.c */; };
 		02FFC09B22B599B30071F243 /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFC09A22B599B30071F243 /* SDL2_ttf.framework */; };
-		02FFC09D22B59C0D0071F243 /* libjpeg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFC09C22B59C0D0071F243 /* libjpeg.dylib */; };
 		02FFC0A422B5ABA70071F243 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02FFC095229CA2AA0071F243 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		02FFC0A522B5ABAE0071F243 /* SDL2_ttf.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02FFC09A22B599B30071F243 /* SDL2_ttf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		02FFC0A822B5AD9D0071F243 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02FFC095229CA2AA0071F243 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		02FFC0A922B5ADA20071F243 /* SDL2_ttf.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02FFC09A22B599B30071F243 /* SDL2_ttf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		02FFC0AA22B5ADB90071F243 /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFC09A22B599B30071F243 /* SDL2_ttf.framework */; };
-		02FFC0AB22B5ADC00071F243 /* libjpeg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFC09C22B59C0D0071F243 /* libjpeg.dylib */; };
-		02FFC0B022B5B07D0071F243 /* libvorbisfile.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFC0A122B59C6B0071F243 /* libvorbisfile.dylib */; };
-		02FFC0B422B5B3CE0071F243 /* libjpeg.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02FFC09C22B59C0D0071F243 /* libjpeg.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		02FFC0B822B5B5D90071F243 /* libpng16.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFC0B722B5B5D80071F243 /* libpng16.dylib */; };
-		02FFC0B922B5B5E90071F243 /* libpng16.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02FFC0B722B5B5D80071F243 /* libpng16.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		02FFC0BB22B5B7270071F243 /* libvorbis.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFC0BA22B5B7270071F243 /* libvorbis.dylib */; };
-		02FFC0BD22B5B7320071F243 /* libogg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFC0BC22B5B7320071F243 /* libogg.dylib */; };
-		02FFC0BE22B5B7540071F243 /* libvorbisfile.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02FFC0A122B59C6B0071F243 /* libvorbisfile.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		02FFC0BF22B5B7590071F243 /* libvorbis.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02FFC0BA22B5B7270071F243 /* libvorbis.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		02FFC0C022B5B7640071F243 /* libogg.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02FFC0BC22B5B7320071F243 /* libogg.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		02FFC0C122B5BB910071F243 /* base_image.c in Sources */ = {isa = PBXBuildFile; fileRef = 02FFBFC1229C9CD60071F243 /* base_image.c */; };
 		02FFC0C222B5BB910071F243 /* geom.c in Sources */ = {isa = PBXBuildFile; fileRef = 02FFBFDB229C9CD60071F243 /* geom.c */; };
 		02FFC0C322B5BB910071F243 /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = 02FFBFE9229C9CD60071F243 /* image.c */; };
@@ -183,15 +172,6 @@
 		02FFC0E922B5BC540071F243 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 02FFBFB2229C9CB90071F243 /* main.c */; };
 		02FFC0EA22B5BC540071F243 /* st_all.c in Sources */ = {isa = PBXBuildFile; fileRef = 02FFBFB4229C9CB90071F243 /* st_all.c */; };
 		02FFC0EB22B5BC540071F243 /* st_conf.c in Sources */ = {isa = PBXBuildFile; fileRef = 02FFBFB6229C9CB90071F243 /* st_conf.c */; };
-		02FFC0EC22B5BC730071F243 /* libpng16.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFC0B722B5B5D80071F243 /* libpng16.dylib */; };
-		02FFC0ED22B5BC800071F243 /* libvorbis.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFC0BA22B5B7270071F243 /* libvorbis.dylib */; };
-		02FFC0EE22B5BC800071F243 /* libvorbisfile.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFC0A122B59C6B0071F243 /* libvorbisfile.dylib */; };
-		02FFC0EF22B5BC860071F243 /* libogg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFC0BC22B5B7320071F243 /* libogg.dylib */; };
-		02FFC0F022B5BCA20071F243 /* libogg.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02FFC0BC22B5B7320071F243 /* libogg.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		02FFC0F122B5BCA20071F243 /* libvorbis.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02FFC0BA22B5B7270071F243 /* libvorbis.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		02FFC0F222B5BCA20071F243 /* libvorbisfile.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02FFC0A122B59C6B0071F243 /* libvorbisfile.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		02FFC0F322B5BCA20071F243 /* libpng16.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02FFC0B722B5B5D80071F243 /* libpng16.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		02FFC0F422B5BCA20071F243 /* libjpeg.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02FFC09C22B59C0D0071F243 /* libjpeg.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		02FFC0F522B5BE250071F243 /* fs_stdio.c in Sources */ = {isa = PBXBuildFile; fileRef = 02FFBFDA229C9CD60071F243 /* fs_stdio.c */; };
 		02FFC0F622B5BE390071F243 /* solid_sim_sol.c in Sources */ = {isa = PBXBuildFile; fileRef = 02FFC002229C9CD60071F243 /* solid_sim_sol.c */; };
 		02FFC0F722B5BE4F0071F243 /* tilt_null.c in Sources */ = {isa = PBXBuildFile; fileRef = 02FFC010229C9CD60071F243 /* tilt_null.c */; };
@@ -207,19 +187,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		02FFC0F922B5C8440071F243 /* PBXContainerItemProxy */ = {
+		02AA7E2422B6AC9D00CF4462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8137FC010AEB71F7009172EC;
+			remoteInfo = Checks;
+		};
+		02AA7E2622B6AD3000CF4462 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 815FFC630AEA2F4900AFD07F;
 			remoteInfo = Maps;
 		};
-		02FFC0FB22B5C8490071F243 /* PBXContainerItemProxy */ = {
+		02AA7E2822B6AD3900CF4462 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 815FFC630AEA2F4900AFD07F;
 			remoteInfo = Maps;
+		};
+		02C3A36522B6546600D87805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8137FC010AEB71F7009172EC;
+			remoteInfo = Translations;
 		};
 		8137FAAE0AEAF655009172EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -235,13 +229,6 @@
 			remoteGlobalIDString = 8137FC010AEB71F7009172EC;
 			remoteInfo = Translations;
 		};
-		8137FD0C0AEBE47A009172EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8137FC010AEB71F7009172EC;
-			remoteInfo = Translations;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -251,11 +238,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				02FFC0C022B5B7640071F243 /* libogg.dylib in CopyFiles */,
-				02FFC0BF22B5B7590071F243 /* libvorbis.dylib in CopyFiles */,
-				02FFC0BE22B5B7540071F243 /* libvorbisfile.dylib in CopyFiles */,
-				02FFC0B922B5B5E90071F243 /* libpng16.dylib in CopyFiles */,
-				02FFC0B422B5B3CE0071F243 /* libjpeg.dylib in CopyFiles */,
 				02FFC0A522B5ABAE0071F243 /* SDL2_ttf.framework in CopyFiles */,
 				02FFC0A422B5ABA70071F243 /* SDL2.framework in CopyFiles */,
 			);
@@ -267,11 +249,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				02FFC0F022B5BCA20071F243 /* libogg.dylib in CopyFiles */,
-				02FFC0F122B5BCA20071F243 /* libvorbis.dylib in CopyFiles */,
-				02FFC0F222B5BCA20071F243 /* libvorbisfile.dylib in CopyFiles */,
-				02FFC0F322B5BCA20071F243 /* libpng16.dylib in CopyFiles */,
-				02FFC0F422B5BCA20071F243 /* libjpeg.dylib in CopyFiles */,
 				02FFC0A922B5ADA20071F243 /* SDL2_ttf.framework in CopyFiles */,
 				02FFC0A822B5AD9D0071F243 /* SDL2.framework in CopyFiles */,
 			);
@@ -280,6 +257,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0259174822B6809C00E9BEFA /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libogg.a; path = ../../../../../../usr/local/lib/libogg.a; sourceTree = "<group>"; };
+		0259174A22B680B300E9BEFA /* libvorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbis.a; path = ../../../../../../usr/local/lib/libvorbis.a; sourceTree = "<group>"; };
+		0259174C22B680D400E9BEFA /* libvorbisfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbisfile.a; path = ../../../../../../usr/local/lib/libvorbisfile.a; sourceTree = "<group>"; };
+		0259174E22B680E300E9BEFA /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = ../../../../../../usr/local/lib/libpng16.a; sourceTree = "<group>"; };
+		0259175022B6810300E9BEFA /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = ../../../../../../usr/local/lib/libjpeg.a; sourceTree = "<group>"; };
 		02FFBF6B229C9C920071F243 /* demo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = demo.c; sourceTree = "<group>"; };
 		02FFBF6C229C9C920071F243 /* demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demo.h; sourceTree = "<group>"; };
 		02FFBF6D229C9C920071F243 /* demo_dir.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = demo_dir.c; sourceTree = "<group>"; };
@@ -453,11 +435,6 @@
 		02FFC017229C9CD60071F243 /* video.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = video.h; sourceTree = "<group>"; };
 		02FFC095229CA2AA0071F243 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		02FFC09A22B599B30071F243 /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = Library/Frameworks/SDL2_ttf.framework; sourceTree = SDKROOT; };
-		02FFC09C22B59C0D0071F243 /* libjpeg.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.dylib; path = usr/local/lib/libjpeg.dylib; sourceTree = SDKROOT; };
-		02FFC0A122B59C6B0071F243 /* libvorbisfile.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvorbisfile.dylib; path = usr/local/lib/libvorbisfile.dylib; sourceTree = SDKROOT; };
-		02FFC0B722B5B5D80071F243 /* libpng16.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpng16.dylib; path = usr/local/lib/libpng16.dylib; sourceTree = SDKROOT; };
-		02FFC0BA22B5B7270071F243 /* libvorbis.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvorbis.dylib; path = usr/local/lib/libvorbis.dylib; sourceTree = SDKROOT; };
-		02FFC0BC22B5B7320071F243 /* libogg.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libogg.dylib; path = usr/local/lib/libogg.dylib; sourceTree = SDKROOT; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		815F03A70AEA8CB400AFD07F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		815FFC940AEA305100AFD07F /* Neverputt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neverputt.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -478,11 +455,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02FFC0EF22B5BC860071F243 /* libogg.dylib in Frameworks */,
-				02FFC0ED22B5BC800071F243 /* libvorbis.dylib in Frameworks */,
-				02FFC0EE22B5BC800071F243 /* libvorbisfile.dylib in Frameworks */,
-				02FFC0EC22B5BC730071F243 /* libpng16.dylib in Frameworks */,
-				02FFC0AB22B5ADC00071F243 /* libjpeg.dylib in Frameworks */,
 				02FFC0AA22B5ADB90071F243 /* SDL2_ttf.framework in Frameworks */,
 				02FFC097229CA2AA0071F243 /* SDL2.framework in Frameworks */,
 				8137FD120AEBE4A8009172EC /* Cocoa.framework in Frameworks */,
@@ -502,11 +474,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02FFC0BD22B5B7320071F243 /* libogg.dylib in Frameworks */,
-				02FFC0BB22B5B7270071F243 /* libvorbis.dylib in Frameworks */,
-				02FFC0B022B5B07D0071F243 /* libvorbisfile.dylib in Frameworks */,
-				02FFC0B822B5B5D90071F243 /* libpng16.dylib in Frameworks */,
-				02FFC09D22B59C0D0071F243 /* libjpeg.dylib in Frameworks */,
 				02FFC09B22B599B30071F243 /* SDL2_ttf.framework in Frameworks */,
 				02FFC096229CA2AA0071F243 /* SDL2.framework in Frameworks */,
 				8137FA280AEAE7E6009172EC /* Cocoa.framework in Frameworks */,
@@ -749,11 +716,11 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				02FFC0BC22B5B7320071F243 /* libogg.dylib */,
-				02FFC0BA22B5B7270071F243 /* libvorbis.dylib */,
-				02FFC0A122B59C6B0071F243 /* libvorbisfile.dylib */,
-				02FFC0B722B5B5D80071F243 /* libpng16.dylib */,
-				02FFC09C22B59C0D0071F243 /* libjpeg.dylib */,
+				0259175022B6810300E9BEFA /* libjpeg.a */,
+				0259174E22B680E300E9BEFA /* libpng16.a */,
+				0259174C22B680D400E9BEFA /* libvorbisfile.a */,
+				0259174A22B680B300E9BEFA /* libvorbis.a */,
+				0259174822B6809C00E9BEFA /* libogg.a */,
 				02FFC09A22B599B30071F243 /* SDL2_ttf.framework */,
 				02FFC095229CA2AA0071F243 /* SDL2.framework */,
 				815F03A70AEA8CB400AFD07F /* AppKit.framework */,
@@ -815,8 +782,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				02FFC0FC22B5C8490071F243 /* PBXTargetDependency */,
-				8137FD0D0AEBE47A009172EC /* PBXTargetDependency */,
+				02AA7E2522B6AC9D00CF4462 /* PBXTargetDependency */,
+				02AA7E2722B6AD3000CF4462 /* PBXTargetDependency */,
 			);
 			name = Neverputt;
 			productName = Neverputt;
@@ -834,6 +801,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				02C3A36622B6546600D87805 /* PBXTargetDependency */,
 			);
 			name = mapc;
 			productName = mapc;
@@ -854,8 +822,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				02FFC0FA22B5C8440071F243 /* PBXTargetDependency */,
 				8137FC250AEB7AEC009172EC /* PBXTargetDependency */,
+				02AA7E2922B6AD3900CF4462 /* PBXTargetDependency */,
 			);
 			name = Neverball;
 			productName = Neverball;
@@ -885,7 +853,7 @@
 				815FFC930AEA305100AFD07F /* Neverputt */,
 				815FFC630AEA2F4900AFD07F /* Maps */,
 				815FFCB40AEA310700AFD07F /* mapc */,
-				8137FC010AEB71F7009172EC /* Translations */,
+				8137FC010AEB71F7009172EC /* Checks */,
 			);
 		};
 /* End PBXProject section */
@@ -923,7 +891,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "MAPC=$TARGET_BUILD_DIR/mapc\n\ncd $SRCROOT/../../data\n\nfor map in $(find . -name \"*.map\" \\! -name \"*.autosave.map\")\ndo\n\techo \"mapc $(basename $map)\"\n\t$MAPC $map .\ndone";
+			shellScript = "MAPC=$TARGET_BUILD_DIR/mapc\n\ncd $SRCROOT/../../data\n\nfor map in $(find . -name \"*.map\" \\! -name \"*.autosave.map\")\ndo\n\techo \"+ mapc $(basename $map)\"\n\t$MAPC $map .\ndone";
 		};
 		8137FC000AEB71F7009172EC /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -931,13 +899,13 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/../po/neverball.pot",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "ROOTDIR=\"$SRCROOT/../..\"\nDSTDIR=\"$TARGET_BUILD_DIR/locale\"\nMSGFMT=\"/usr/local/bin/msgfmt\"\n\nfor langfile in $(echo \"${ROOTDIR}/po/*.po\")\ndo\n    lang=$(basename $langfile | cut -d. -f1)\n    echo building translation for $lang\n    mkdir -p \"${DSTDIR}/$lang/LC_MESSAGES\"\n    $MSGFMT -c -v -o \"${DSTDIR}/$lang/LC_MESSAGES/neverball.mo\" $langfile\ndone";
+			shellScript = "ls ${SRCROOT}/../../share/version.h && ls ${SRCROOT}/../../locale/en_GB/LC_MESSAGES/neverball.mo";
+			showEnvVarsInLog = 0;
 		};
 		8137FC220AEB7A30009172EC /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -950,7 +918,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e \n\necho \"***\"\necho \"*** Installing resources...\"\necho \"***\"\n\nROOTDIR=\"${SRCROOT}/../..\"\nAPPCONTENTSDIR=\"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents\"\nAPPBINARY=\"${APPCONTENTSDIR}/MacOS/${PRODUCT_NAME}\"\nRESOURCESDIR=\"${APPCONTENTSDIR}/Resources\"\nmkdir -p ${RESOURCESDIR}\n\necho -n \"+ copying translations... \"\ncp -rp \"${TARGET_BUILD_DIR}/locale\" \"${RESOURCESDIR}\"\necho ok\n\necho -n \"+ copying mapc... \"\ncp \"${TARGET_BUILD_DIR}/mapc\" \"${APPCONTENTSDIR}/MacOS\"\necho ok\n\necho -n \"+ embedding dylibs... \"\ninstall_name_tool -change /usr/local/lib/libvorbisfile.3.dylib @rpath/libvorbisfile.dylib \"${APPBINARY}\"\ninstall_name_tool -change /usr/local/lib/libvorbis.0.dylib @rpath/libvorbis.dylib \"${APPBINARY}\"\ninstall_name_tool -change /usr/local/lib/libogg.0.dylib @rpath/libogg.dylib \"${APPBINARY}\"\ninstall_name_tool -change /usr/local/lib/libpng16.16.dylib @rpath/libpng16.dylib \"${APPBINARY}\"\ninstall_name_tool -change /usr/local/lib/libjpeg.9.dylib @rpath/libjpeg.dylib \"${APPBINARY}\"\necho ok\n\necho -n \"+ cleaning the resources...\"\nfind . -name .DS_Store -print0 | xargs -0 rm\necho ok";
+			shellScript = "set -e \n\necho \"***\"\necho \"*** Installing resources...\"\necho \"***\"\n\nROOTDIR=\"${SRCROOT}/../..\"\nAPPCONTENTSDIR=\"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents\"\nAPPBINARY=\"${APPCONTENTSDIR}/MacOS/${PRODUCT_NAME}\"\nRESOURCESDIR=\"${APPCONTENTSDIR}/Resources\"\nmkdir -p ${RESOURCESDIR}\n\necho -n \"+ copying translations... \"\ncp -rp \"${ROOTDIR}/locale\" \"${RESOURCESDIR}\"\necho ok\n\nif [ ${CONFIGURATION} = \"Deployment\" ]; then\n    echo -n \"+ copying and cleaning neverball data... \"\n    cp -rp \"${ROOTDIR}/data\" \"${RESOURCESDIR}\"\n    DATADIR=\"${RESOURCESDIR}/data\"\n    find \"${RESOURCESDIR}/data\" -name *.map -exec rm {} \\;\n    sed -i '' -E \"s/(holes-|\\.txt)//g\" \"${DATADIR}/courses.txt\"\n    echo \"iCourse\" >> \"${DATADIR}/courses.txt\"\n    while read course; do\n        rm -Rf \"${DATADIR}/map-$course\"\n        rm -Rf \"${DATADIR}/shot-$course\"\n        rm -f \"${DATADIR}/holes-$course.txt\"\n    done < \"${DATADIR}/courses.txt\"\n    echo \"\" > \"${DATADIR}/courses.txt\"\n    echo ok\nelse\n    echo -n \"+ symlinking neverball data and copying mapc... \"\n    test -L \"${RESOURCESDIR}/data\" || ln -s \"/Library/Application Support/Neverball/data\" \"${RESOURCESDIR}\"\n    cp \"${TARGET_BUILD_DIR}/mapc\" \"${APPCONTENTSDIR}/MacOS\"\n    echo ok\nfi\n\nfind . -name .DS_Store -exec rm {} \\;";
 		};
 		8137FD740AEBE7F4009172EC /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -963,7 +931,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\necho \"***\"\necho \"*** Installing resources...\"\necho \"***\"\n\nROOTDIR=\"${SRCROOT}/../..\"\nAPPCONTENTSDIR=\"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents\"\nAPPBINARY=\"${APPCONTENTSDIR}/MacOS/${PRODUCT_NAME}\"\nRESOURCESDIR=\"${APPCONTENTSDIR}/Resources\"\nmkdir -p ${RESOURCESDIR}\n\necho -n \"+ copying translations... \"\ncp -rp \"${TARGET_BUILD_DIR}/locale\" \"${RESOURCESDIR}\"\necho ok\n\necho -n \"+ embedding dylibs... \"\ninstall_name_tool -change /usr/local/lib/libvorbisfile.3.dylib @rpath/libvorbisfile.dylib \"${APPBINARY}\"\ninstall_name_tool -change /usr/local/lib/libvorbis.0.dylib @rpath/libvorbis.dylib \"${APPBINARY}\"\ninstall_name_tool -change /usr/local/lib/libogg.0.dylib @rpath/libogg.dylib \"${APPBINARY}\"\ninstall_name_tool -change /usr/local/lib/libpng16.16.dylib @rpath/libpng16.dylib \"${APPBINARY}\"\ninstall_name_tool -change /usr/local/lib/libjpeg.9.dylib @rpath/libjpeg.dylib \"${APPBINARY}\"\necho ok\n\necho -n \"+ cleaning the resources...\"\nfind . -name .DS_Store -print0 | xargs -0 rm\necho ok";
+			shellScript = "set -e\n\necho \"***\"\necho \"*** Installing resources...\"\necho \"***\"\n\nROOTDIR=\"${SRCROOT}/../..\"\nAPPCONTENTSDIR=\"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents\"\nAPPBINARY=\"${APPCONTENTSDIR}/MacOS/${PRODUCT_NAME}\"\nRESOURCESDIR=\"${APPCONTENTSDIR}/Resources\"\nmkdir -p ${RESOURCESDIR}\n\necho -n \"+ copying translations... \"\ncp -rp \"${ROOTDIR}/locale\" \"${RESOURCESDIR}\"\necho ok\n\nif [ ${CONFIGURATION} = \"Deployment\" ]; then\n    echo -n \"+ copying and cleaning neverputt data... \"\n    cp -rp \"${ROOTDIR}/data\" \"${RESOURCESDIR}\"\n    DATADIR=\"${RESOURCESDIR}/data\"\n    find \"${RESOURCESDIR}/data\" -name *.map -exec rm {} \\;\n    sed -i '' -E \"s/(set-|\\.txt)//g\" \"${DATADIR}/sets.txt\"\n    echo \"iCourse\" >> \"${DATADIR}/sets.txt\"\n    while read set; do\n        rm -Rf \"${DATADIR}/map-$set\"\n        rm -Rf \"${DATADIR}/shot-$set\"\n        rm -f \"${DATADIR}/set-$set.txt\"\n    done < \"${DATADIR}/sets.txt\"\n    echo \"\" > \"${DATADIR}/sets.txt\"\n    echo ok\nelse\n    echo -n \"+ symlinking neverball data... \"\n    test -L \"${RESOURCESDIR}/data\" || ln -s \"/Library/Application Support/Neverball/data\" \"${RESOURCESDIR}\"\necho ok\nfi\n\nfind . -name .DS_Store -exec rm {} \\;";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1126,15 +1094,25 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02FFC0FA22B5C8440071F243 /* PBXTargetDependency */ = {
+		02AA7E2522B6AC9D00CF4462 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 815FFC630AEA2F4900AFD07F /* Maps */;
-			targetProxy = 02FFC0F922B5C8440071F243 /* PBXContainerItemProxy */;
+			target = 8137FC010AEB71F7009172EC /* Checks */;
+			targetProxy = 02AA7E2422B6AC9D00CF4462 /* PBXContainerItemProxy */;
 		};
-		02FFC0FC22B5C8490071F243 /* PBXTargetDependency */ = {
+		02AA7E2722B6AD3000CF4462 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 815FFC630AEA2F4900AFD07F /* Maps */;
-			targetProxy = 02FFC0FB22B5C8490071F243 /* PBXContainerItemProxy */;
+			targetProxy = 02AA7E2622B6AD3000CF4462 /* PBXContainerItemProxy */;
+		};
+		02AA7E2922B6AD3900CF4462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 815FFC630AEA2F4900AFD07F /* Maps */;
+			targetProxy = 02AA7E2822B6AD3900CF4462 /* PBXContainerItemProxy */;
+		};
+		02C3A36622B6546600D87805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8137FC010AEB71F7009172EC /* Checks */;
+			targetProxy = 02C3A36522B6546600D87805 /* PBXContainerItemProxy */;
 		};
 		8137FAAF0AEAF655009172EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1143,13 +1121,8 @@
 		};
 		8137FC250AEB7AEC009172EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8137FC010AEB71F7009172EC /* Translations */;
+			target = 8137FC010AEB71F7009172EC /* Checks */;
 			targetProxy = 8137FC240AEB7AEC009172EC /* PBXContainerItemProxy */;
-		};
-		8137FD0D0AEBE47A009172EC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8137FC010AEB71F7009172EC /* Translations */;
-			targetProxy = 8137FD0C0AEBE47A009172EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1176,7 +1149,7 @@
 		8137FC030AEB7216009172EC /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = Translations;
+				PRODUCT_NAME = Checks;
 			};
 			name = Development;
 		};
@@ -1184,7 +1157,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PRODUCT_NAME = Translations;
+				PRODUCT_NAME = Checks;
 			};
 			name = Deployment;
 		};
@@ -1200,7 +1173,7 @@
 					/Library/Frameworks/SDL2_ttf.framework/Versions/A/Headers,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				NEVERBALL_PATHS = "-DCONFIG_DATA=\\\"/Library/Application\\ Support/Neverball/data\\\" -DCONFIG_USER=\\\"Library/Application\\ Support/Neverball\\\"";
+				NEVERBALL_PATHS = "-DCONFIG_USER=\\\"Library/Application\\ Support/Neverball\\\" -DCONFIG_DATA=\\\"../Resources/data\\\" -DCONFIG_LOCALE=\\\"../Resources/locale\\\" ";
 				OTHER_CFLAGS = "$(NEVERBALL_PATHS)";
 				SDKROOT = macosx;
 				WARNING_CFLAGS = (
@@ -1222,8 +1195,9 @@
 					/Library/Frameworks/SDL2.framework/Versions/A/Headers,
 					/Library/Frameworks/SDL2_ttf.framework/Versions/A/Headers,
 				);
+				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				NEVERBALL_PATHS = "-DCONFIG_DATA=\\\"/Library/Application\\ Support/Neverball/data\\\" -DCONFIG_USER=\\\"Library/Application\\ Support/Neverball\\\"";
+				NEVERBALL_PATHS = "-DCONFIG_USER=\\\"Library/Application\\ Support/Neverball\\\" -DCONFIG_DATA=\\\"../Resources/data\\\" -DCONFIG_LOCALE=\\\"../Resources/locale\\\" ";
 				OTHER_CFLAGS = (
 					"$(NEVERBALL_PATHS)",
 					"-DNDEBUG",
@@ -1255,9 +1229,18 @@
 		815FFC980AEA305200AFD07F /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				INFOPLIST_FILE = putt_items/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-lpng",
+					"-ljpeg",
+					"-lvorbisfile",
+					"-lvorbis",
+					"-logg",
+				);
 				PRODUCT_NAME = Neverputt;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1266,9 +1249,18 @@
 		815FFC990AEA305200AFD07F /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				INFOPLIST_FILE = putt_items/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					/usr/local/lib/libz.a,
+					/usr/local/lib/libpng.a,
+					/usr/local/lib/libjpeg.a,
+					/usr/local/lib/libvorbisfile.a,
+					/usr/local/lib/libvorbis.a,
+					/usr/local/lib/libogg.a,
+				);
 				PRODUCT_NAME = Neverputt;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1303,9 +1295,18 @@
 		815FFCDA0AEA319C00AFD07F /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				INFOPLIST_FILE = ball_items/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-lpng",
+					"-ljpeg",
+					"-lvorbisfile",
+					"-lvorbis",
+					"-logg",
+				);
 				PRODUCT_NAME = Neverball;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1314,9 +1315,18 @@
 		815FFCDB0AEA319C00AFD07F /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				INFOPLIST_FILE = ball_items/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					/usr/local/lib/libz.a,
+					/usr/local/lib/libpng.a,
+					/usr/local/lib/libjpeg.a,
+					/usr/local/lib/libvorbisfile.a,
+					/usr/local/lib/libvorbis.a,
+					/usr/local/lib/libogg.a,
+				);
 				PRODUCT_NAME = Neverball;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1325,7 +1335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8137FC020AEB7216009172EC /* Build configuration list for PBXAggregateTarget "Translations" */ = {
+		8137FC020AEB7216009172EC /* Build configuration list for PBXAggregateTarget "Checks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8137FC030AEB7216009172EC /* Development */,
