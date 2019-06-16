@@ -13,6 +13,8 @@ Additionally, the following must be installed, either by hand in /usr/local, wit
 	- libpng		( http://www.libpng.org/pub/png/libpng.html )
 	- libjpeg		( http://libjpeg.sourceforge.net )
 	- libogg and libvorbis	( https://xiph.org/downloads/ )
+If you plan to distribute Neverball/Neverputt (release version), the libraries
+must be built as static libraries.
 
 Warning ! If you want to build for an older version of OS X, you must ensure
 backward compatibility when you compile libpng, libjpeg, libogg and libvorbis :
@@ -35,7 +37,9 @@ Execute the following (at the root) to create share/version.h and locales :
 The "sdl2-config: Command not found" message can be safely ignored.
 
 Then open the Xcode project macosx/xcode/neverball.xcodeproj
-		
+
+Change the version of targets "Neverball" and "Neverputt" accordingly.
+
 5) Build mapc, compile the maps, and build Neverball/Neverputt
 
 You can directy select the "Neverball" or "Neverputt" and build
@@ -52,4 +56,3 @@ depending on your computer. Then Neverball.app or Neverputt.app will be built an
 	  (standalone .app, no installer needed)
 
 Then, Neverball.app or Neverputt.app are ready to use or distribute standalone.
- 

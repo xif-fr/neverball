@@ -1,8 +1,18 @@
+16-06-2019
+
+Xcode project entierly rebuilt for Neverball 1.6 and SDL2. Neverball and Neverputt
+are now standalone bundles. This duplicates some common data if both are installed,
+but simplifies distribution. Moreover, in order to allow for sandboxing, user data
+are now stored in "~/Users/xif/Library/Application Support/Neverball".
+
+-------------------------------------------------------------------------------
+
 24-10-2006
 
 Xcode project including script for building directly a ready to use dmg file
 
 -------------------------------------------------------------------------------
+
 - Makefile.osx added (use Makefile -f Makefile.osx)
 
 - osx directory added contains : 
